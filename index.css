@@ -1,0 +1,27 @@
+
+.container{
+    margin-bottom: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+.nav{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    /* border-color: black; */
+    text-align: center;
+}
+ul{
+    /* width: max-content; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    /* border-style:groove; */
+    border-top-style: groove;
+    border-bottom-style:groove ;
+    padding-top: 10px;
+    margin-right: 30px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
