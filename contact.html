@@ -19,6 +19,32 @@
             <a href="contact.html"><ol>Contact me</ol></a>
         </ul>
         </div>
+            <form action="/submit" method="POST">
+                <table>
+                    <th>
+                        <tr>
+                            <td><label for="name">TYPE:</label></td>
+                            <td><label for="name">VALUE:</label></td>
+                          </tr>
+                    </th><br>
+                    <tr>
+                    <td><label for="name">Telephone:</label></td>
+                    <td><input type="number" id="name" name="name" minlength="10" maxlength="12" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="message">Message:</label></td>
+                    <td><textarea id="message" name="message" required></textarea></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2"><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div> 
 </body>
 </html>
